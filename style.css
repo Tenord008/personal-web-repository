@@ -1,18 +1,186 @@
-*{
-    box-sizing: border-box;
-}
-
-
-
-head{
-background-color: ivory;
-}
-
-
-
-
-
 body {
-    background: #eae3c8;
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather"serif;
+    background-color: #eae3c8;
   }
-
+  
+  h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 5.635rem;
+    color: #62959c;
+  }
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #62959c;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #62959c;
+  }
+  
+  hr{
+    border: 6px dotted #aaaaaa;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  p{
+    line-height: 2;
+    color: #62959c;
+  }
+  
+  a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #aaaaaa;
+  }
+  
+  .header {
+    top: 0;
+    width: 100%; 
+    height: auto;
+  }
+  .header a{
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  .pages{
+   
+  text-align: right;
+  padding: 20px;
+  }
+  
+  
+  .top-container {
+    position: relative;
+    padding-top: 100px;
+    line-height: 2;
+  }
+  
+  .middle-container {
+  margin: 100px;
+  }
+  
+  .bottom-container {
+  background-color: #62959c;
+  color: #EAF6F6;
+  height: 100px;
+  }
+  
+  .Pro {
+    text-decoration: underline;
+  }
+  
+  .intro{
+    width: 30%;
+    margin: auto;
+  }
+  
+  .a-programmer {
+    font-weight: normal;
+  }
+  
+  .profile-pic{
+  width: 250px;
+  border-radius: 50%;
+  }
+  
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    padding-top: 50px;
+  }
+  
+  .skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+  }
+  
+  .Sketchup-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: right;
+    line-height: 2;
+  }
+  
+  .skill-image{
+  border-radius: 50%;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+  }
+  
+  .Sketchup-image{
+    margin-left: 30px;
+  border-radius: 50%;
+  width: 100px;
+  float: right;
+  }
+  
+  .contact-message{
+    width: 30%;
+    margin: 40px auto 60px;
+  }
+  
+  .instagram.instagram.instagram{
+  color: white;
+  float: none;
+  }
+  
+  .copyright{
+    color: #eaf6f6;
+    padding: 20 0 20 0;
+  }
+  
+  .contact-button.contact-button.contact-button {
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+     color: white;
+     font-family: Helvetica;
+     font-size: 20px;
+     font-weight: 900;
+     padding: 12px;
+     background-color: #62959c;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+     float: none;
+  }
+  
+  .contact-button:hover {
+     background: #1E62D0;
+     border: solid #11999E 1px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     text-decoration: none;
+  }
+  
